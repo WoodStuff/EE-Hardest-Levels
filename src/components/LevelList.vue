@@ -5,7 +5,9 @@ import Level from './Level.vue';
 
 <template>
 	<div class="level-list">
-		<Level />
+		<Level
+			v-for="n in [1, 2, 3]"
+		/>
 	</div>
 </template>
 
@@ -13,5 +15,9 @@ import Level from './Level.vue';
 .level-list {
 	width: 800px;
 	margin: auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
 }
 </style>

@@ -1,9 +1,16 @@
+:root {
+	--background-color: #161616;
+	--text-color: #ffffffe6;
+	--border-color: #242424;
+	--panel-color: #181818;
+}
+
 * {
 	font-family: 'Segoe UI', sans-serif;
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #181818;
-	color: #ffffffe6;
+	background-color: var(--background-color);
+	color: var(--text-color);
 }
