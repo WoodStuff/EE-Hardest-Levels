@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import LevelList from './LevelList.vue';
+
+</script>
+
 <template>
-	<p>hi</p>
+	<div>
+		<LevelList />
+	</div>
 </template>
