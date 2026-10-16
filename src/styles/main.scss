@@ -8,9 +8,14 @@
 * {
 	font-family: 'Segoe UI', sans-serif;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 body {
 	background-color: var(--background-color);
 	color: var(--text-color);
+}
+
+p {
+	margin: 0;
 }

@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import LevelList from './LevelList.vue';
-
+import LevelList from './level/LevelList.vue';
 </script>
 
 <template>

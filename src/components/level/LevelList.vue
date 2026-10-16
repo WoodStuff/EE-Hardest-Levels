@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import Level from './Level.vue';
-
+import { LEVELS } from '@/data/levels.ts';
+import LevelCard from './LevelCard.vue';
 </script>
 
 <template>
 	<div class="level-list">
-		<Level
-			v-for="n in [1, 2, 3]"
+		<LevelCard
+			v-for="level in LEVELS"
+			:level
 		/>
 	</div>
 </template>
