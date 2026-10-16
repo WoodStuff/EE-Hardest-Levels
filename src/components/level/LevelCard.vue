@@ -11,7 +11,7 @@ const { level } = defineProps<{
 	<div
 		class="level"
 	>
-		<LevelCardBackground />
+		<LevelCardBackground :level />
 		<p class="name">{{ level.name }}</p>
 		<p class="author">{{ level.author }}</p>
 	</div>

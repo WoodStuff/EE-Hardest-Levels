@@ -1,6 +1,14 @@
+<script setup lang="ts">
+import type { Level } from '@/types/Level';
+
+const { level } = defineProps<{
+	level: Level,
+}>();
+</script>
+
 <template>
 	<div class="background">
-		<img src="/image.png">
+		<img :src="`/banners/${level.name}.png`">
 	</div>
 </template>
 
@@ -13,6 +21,6 @@
 	background-position: center;
 	image-rendering: pixelated;
 	z-index: -1;
-	opacity: 20%;
+	opacity: 30%;
 }
 </style>
