@@ -6,10 +6,85 @@
 		<link rel="icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>EE Hardest Levels</title>
+		<style>
+			body {
+				background-color: black;
+				@font-face {
+					font-family: Inter2;
+					src: url(../public/fonts/Inter.ttf);
+				}
+				font-family: Inter2;
+			}
+			body p {
+				font-size:2vh;
+				text-align:center
+			}
+			h1, h2, h3, h4, h5, h6, p {
+				color: white;
+				margin:auto;
+				font-weight: normal;
+			}
+			h2 {
+				text-shadow: 0 3px 5px rgba(255,255,255,.5)
+			}
+			.levelcontainer {
+				border: 2px solid white;
+				border-radius: 20px;
+				color: white;
+				display:table;
+				border-spacing:10px
+			}
+			.levelwrap {
+				color: white;
+				display:table-row;
+			}
+			.levelwrap .placement {
+				display:table-cell;
+				font-size:5vh;
+				vertical-align:middle;
+				padding-left:20px;
+				padding-right:20px;
+			}
+			.level {
+				border: 2px solid white;
+				border-radius: 10px;
+				color:white;
+				padding: 10px;
+				margin: 10px;
+				height: 8vh;
+				font-size:2vh;
+				display:table-cell;
+				width:100%;
+			}
+		</style>
 	</head>
-	
+
 	<body>
 		<div id="app"></div>
 		<script type="module" src="/src/main.ts"></script>
+		<h1 style="font-size:5vh; text-align:center">EE Hardest Levels List</h1>
+		<p>List of top hardest levels beaten in Everybody Edits.</p>
+		<br>
+		<div class="levelcontainer" style="width:50%; margin:auto">
+			<div class="levelwrap">
+				<p class="placement">#1</p>
+				<div class="level" style="background: linear-gradient(to right, rgba(0,0,0,.7) 20%, rgba(0,0,0,0) 80%), url('/banners/A\ Real\ Trisaster.png') fixed">
+					<h2>A Real Trisaster</h2><h5>MASTER1</h5>
+				</div>
+			</div>
+			<div class="levelwrap">
+				<p class="placement">#2</p>
+				<div class="level" style="background: linear-gradient(to right, rgba(0,0,0,.7) 20%, rgba(0,0,0,0) 80%), url('/banners/Tea\ Land.png')">
+					<h2>Tea Land</h2><h5>LICTOR</h5>
+				</div>
+			</div>
+			<div class="levelwrap">
+				<p class="placement">#3</p>
+				<div class="level" style="background: linear-gradient(to right, rgba(0,0,0,.7) 20%, rgba(0,0,0,0) 80%), url('/banners/Spike\ Helixory.png')">
+					<h2>Spike Helixory</h2><h5>THEEGGLET</h5>
+				</div>	
+			</div>
+		</div>
+		</div>
 	</body>
 </html>
