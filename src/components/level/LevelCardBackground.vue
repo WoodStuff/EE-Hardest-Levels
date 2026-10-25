@@ -7,20 +7,20 @@ const { level } = defineProps<{
 </script>
 
 <template>
-	<div class="background">
-		<img :src="`/banners/${level.name}.png`">
-	</div>
+	<img
+		class="background"
+		:src="`/banners/${level.title}.png`"
+		draggable="false"
+	>
 </template>
 
 <style lang="scss" scoped>
 .background {
-	position: absolute;
-	top: -2px;
-	left: -2px;
-
 	background-position: center;
 	image-rendering: pixelated;
-	z-index: -1;
-	opacity: 30%;
+	mask-image: url("/banner-mask.png");
+	opacity: 0.5;
+
+	user-select: none;
 }
 </style>

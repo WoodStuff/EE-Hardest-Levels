@@ -6,8 +6,9 @@ import LevelCard from './LevelCard.vue';
 <template>
 	<div class="level-list">
 		<LevelCard
-			v-for="level in LEVELS"
+			v-for="level, i in LEVELS"
 			:level
+			:placement="i + 1"
 		/>
 	</div>
 </template>
@@ -19,6 +20,6 @@ import LevelCard from './LevelCard.vue';
 
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 18px;
 }
 </style>

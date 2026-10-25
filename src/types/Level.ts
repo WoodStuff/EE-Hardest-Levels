@@ -1,4 +1,5 @@
 export interface Level {
-	name: string;
+	title: string;
 	author: string;
+	completions: string[];
 }

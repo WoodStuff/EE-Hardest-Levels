@@ -1,19 +1,21 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
+import LevelCardInfo from './LevelCardInfo.vue';
 import LevelCardBackground from './LevelCardBackground.vue';
 
-const { level } = defineProps<{
+const { level, placement } = defineProps<{
 	level: Level,
+	placement: number,
 }>();
 </script>
 
 <template>
 	<div
 		class="level"
+		draggable="false"
 	>
 		<LevelCardBackground :level />
-		<p class="name">{{ level.name }}</p>
-		<p class="author">{{ level.author }}</p>
+		<LevelCardInfo :level :placement />
 	</div>
 </template>
 
@@ -25,13 +27,9 @@ const { level } = defineProps<{
 
 	border: solid 2px var(--border-color);
 	border-radius: 6px;
+	box-shadow: 0 0 16px black;
+	background-color: var(--panel-color);
 
-	padding: 8px 10px;
 	overflow: hidden;
-
-	& > .name {
-		font-size: 1.2em;
-		font-weight: 600;
-	}
 }
 </style>
