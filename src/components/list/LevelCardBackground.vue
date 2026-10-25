@@ -16,7 +16,6 @@ const { level } = defineProps<{
 
 <style lang="scss" scoped>
 .background {
-	background-position: center;
 	image-rendering: pixelated;
 	mask-image: url("/banner-mask.png");
 	opacity: 0.5;
