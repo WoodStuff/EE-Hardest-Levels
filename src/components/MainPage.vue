@@ -3,7 +3,5 @@ import LevelList from './list/LevelList.vue';
 </script>
 
 <template>
-	<div>
-		<LevelList />
-	</div>
+	<LevelList />
 </template>

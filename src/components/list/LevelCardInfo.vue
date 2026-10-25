@@ -3,7 +3,7 @@ import type { Level } from '@/types/Level';
 
 const { level, placement } = defineProps<{
 	level: Level,
-	placement: number
+	placement: number,
 }>();
 </script>
 
