@@ -10,13 +10,14 @@ const { level, placement } = defineProps<{
 </script>
 
 <template>
-	<div
+	<RouterLink
 		class="level"
-		draggable="false"
+		:to="`/level/${placement}`"
+		tag="div"
 	>
 		<LevelCardBackground :level />
 		<LevelCardInfo :level :placement />
-	</div>
+	</RouterLink>
 </template>
 
 <style lang="scss" scoped>
