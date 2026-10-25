@@ -13,7 +13,7 @@ const { level, placement } = defineProps<{
 	<RouterLink
 		class="level"
 		:to="`/level/${placement}`"
-		tag="div"
+		draggable="false"
 	>
 		<LevelCardBackground :level />
 		<LevelCardInfo :level :placement />
@@ -32,5 +32,12 @@ const { level, placement } = defineProps<{
 	background-color: var(--panel-color);
 
 	overflow: hidden;
+
+	&:hover {
+		filter: brightness(110%);
+	}
+	&:active {
+		filter: brightness(90%);
+	}
 }
 </style>
