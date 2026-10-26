@@ -2,6 +2,7 @@
 import type { Level } from '@/types/Level';
 import LevelBanner from './LevelBanner.vue';
 import ClearVideo from './ClearVideo.vue';
+import TitleAuthor from './TitleAuthor.vue';
 
 const { level } = defineProps<{
 	level: Level,
@@ -11,7 +12,7 @@ const { level } = defineProps<{
 <template>
 	<div class="level-info">
 		<LevelBanner :level />
-		<h1 class="title">{{ level.title }}</h1>
+		<TitleAuthor :level />
 		<ClearVideo :video="level.video" />
 	</div>
 </template>
@@ -27,11 +28,5 @@ const { level } = defineProps<{
 	background-color: var(--panel-color);
 
 	overflow: hidden;
-	
-	& > .title {
-		font-size: 2.5em;
-		font-weight: 600;
-		text-align: center;
-	}
 }
 </style>
