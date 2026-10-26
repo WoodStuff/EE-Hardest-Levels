@@ -6,7 +6,7 @@ const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
 		{ path: '/', component: MainPage, },
-		{ path: '/level/:id', component: LevelPage, props: true },
+		{ path: '/level/:placement', component: LevelPage, props: true },
 	],
 });
 

@@ -1,19 +1,18 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
 import LevelBanner from './LevelBanner.vue';
-import ClearVideo from './ClearVideo.vue';
-import TitleAuthor from './TitleAuthor.vue';
+import TitleRow from './TitleRow.vue';
 
-const { level } = defineProps<{
+const { level, placement } = defineProps<{
 	level: Level,
+	placement: number,
 }>();
 </script>
 
 <template>
 	<div class="level-info">
 		<LevelBanner :level />
-		<TitleAuthor :level />
-		<ClearVideo :video="level.video" />
+		<TitleRow :level :placement />
 	</div>
 </template>
 

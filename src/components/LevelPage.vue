@@ -3,13 +3,13 @@ import { LEVELS } from '@/data/levels';
 import LevelInfo from './level/LevelInfo.vue';
 import { computed } from 'vue';
 
-const { id } = defineProps<{
-	id: number,
+const { placement } = defineProps<{
+	placement: number,
 }>();
 
-const level = computed(() => LEVELS[id - 1]);
+const level = computed(() => LEVELS[placement - 1]);
 </script>
 
 <template>
-	<LevelInfo v-if="level" :level />
+	<LevelInfo v-if="level" :level :placement />
 </template>

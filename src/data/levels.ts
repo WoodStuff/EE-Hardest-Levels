@@ -4,22 +4,31 @@ export const LEVELS: Level[] = [
 	{
 		title: "A Real Trisaster",
 		author: "MASTER1",
-		video: "svPrB-CodUs",
+		stars: 5,
+
 		tags: ['Precision', 'BEEL', 'Edges', 'Levitation'],
 		completions: ["THEEGGLET", "JOEY"],
+
+		video: "svPrB-CodUs",
 	},
 	{
 		title: "Tea Land",
 		author: "LICTOR",
-		video: "VKW_-rkL114",
+		stars: 5,
+		
 		tags: ['T-Jumps'],
 		completions: ["TURTLECAT", "THEEGGLET"],
+		
+		video: "VKW_-rkL114",
 	},
 	{
 		title: "Spike Helixory",
 		author: "THEEGGLET",
-		video: "bXVN4ipMtOM",
+		stars: 5,
+
 		tags: ['Spike Hell', 'Helix', 'Overall'],
 		completions: ["THEEGGLET"],
+
+		video: "bXVN4ipMtOM",
 	},
 ];
