@@ -2,6 +2,7 @@
 import type { Level } from '@/types/Level';
 import LevelBanner from './LevelBanner.vue';
 import TitleRow from './TitleRow.vue';
+import TagList from './tags/TagList.vue';
 
 const { level, placement } = defineProps<{
 	level: Level,
@@ -12,14 +13,20 @@ const { level, placement } = defineProps<{
 <template>
 	<div class="level-info">
 		<LevelBanner :level />
-		<TitleRow :level :placement />
+		<div class="content">
+			<TitleRow :level :placement />
+			<TagList :tags="level.tags" />
+		</div>
 	</div>
 </template>
 
 <style lang="scss" scoped>
 .level-info {
+	position: relative;
+
 	width: 800px;
 	margin: auto;
+	padding-bottom: 32px;
 
 	border: solid 2px var(--border-color);
 	border-radius: 6px;
@@ -27,5 +34,9 @@ const { level, placement } = defineProps<{
 	background-color: var(--panel-color);
 
 	overflow: hidden;
+
+	& > .content {
+		padding: 0 40px;
+	}
 }
 </style>

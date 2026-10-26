@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import type { Level } from '@/types/Level';
-import LevelBanner from './LevelBanner.vue';
-
 const { video } = defineProps<{
 	video: string,
 }>();
