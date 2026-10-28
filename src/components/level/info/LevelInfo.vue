@@ -33,7 +33,12 @@ const { level, placement } = defineProps<{
 	position: relative;
 	margin: auto;
 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	& > .content {
+		width: 100%;
 		padding: 20px 40px 40px 40px;
 
 		display: flex;

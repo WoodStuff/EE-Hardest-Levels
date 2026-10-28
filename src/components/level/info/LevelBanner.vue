@@ -16,7 +16,7 @@ const { level } = defineProps<{
 
 <style lang="scss" scoped>
 .banner {
-	height: 120px;
+	height: 128px;
 	mask: linear-gradient(black 50%, transparent 100%);
 	image-rendering: pixelated;
 
