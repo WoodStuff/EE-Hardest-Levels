@@ -13,13 +13,13 @@ const { tag } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../../styles/_mixins.scss";
+
 .tag-chip {
+	@include mixins.chip;
+
 	font-size: 0.9em;
 	padding: 4px 8px;
-	
-	border: solid 2px var(--chip-border-color);
 	border-radius: 100px;
-	box-shadow: 0 2px 8px black;
-	background-color: var(--chip-color);
 }
 </style>

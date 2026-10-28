@@ -13,14 +13,13 @@ const { description, value } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../../styles/_mixins.scss";
+
 .panel {
+	@include mixins.chip;
+
 	width: 100%;
 	height: 100px;
-	
-	border: solid 2px var(--chip-border-color);
-	border-radius: 6px;
-	box-shadow: 0 2px 8px black;
-	background-color: var(--chip-color);
 
 	display: flex;
 	flex-direction: column;

@@ -19,15 +19,13 @@ const { video } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../styles/_mixins.scss";
+
 .clear-video {
+	@include mixins.big-panel;
+
 	width: 100%;
 	aspect-ratio: 16/9;
-	
-	border: solid 2px var(--panel-border-color);
-	border-radius: 6px;
-	box-shadow: 0 0 16px black;
-	background-color: var(--panel-color);
-
 	overflow: hidden;
 
 	.frame {

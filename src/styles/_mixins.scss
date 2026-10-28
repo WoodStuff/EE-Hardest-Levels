@@ -1,0 +1,24 @@
+@mixin panel {
+	border: solid 2px var(--panel-border-color);
+	border-radius: 6px;
+	box-shadow: 0 2px 8px black;
+	background-color: var(--panel-color);
+}
+
+@mixin big-panel {
+	@include panel;
+
+	box-shadow: 0 0 16px black;
+}
+
+@mixin chip {
+	@include panel;
+
+	border-color: var(--chip-border-color);
+	background-color: var(--chip-color);
+}
+
+@mixin hover {
+	&:hover { filter: brightness(110%); }
+	&:active { filter: brightness(90%); }
+}

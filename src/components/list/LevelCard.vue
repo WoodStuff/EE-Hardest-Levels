@@ -21,23 +21,16 @@ const { level, placement } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../styles/_mixins.scss";
+
 .level {
+	@include mixins.big-panel;
+	@include mixins.hover;
+	
 	position: relative;
 	width: 100%;
 	height: 120px;
 
-	border: solid 2px var(--panel-border-color);
-	border-radius: 6px;
-	box-shadow: 0 0 16px black;
-	background-color: var(--panel-color);
-
 	overflow: hidden;
-
-	&:hover {
-		filter: brightness(110%);
-	}
-	&:active {
-		filter: brightness(90%);
-	}
 }
 </style>

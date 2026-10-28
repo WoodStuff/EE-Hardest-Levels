@@ -25,18 +25,16 @@ const { level, placement } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../styles/_mixins.scss";
+
 .level-info {
+	@include mixins.big-panel;
+
 	position: relative;
+	overflow: hidden;
 
 	width: 100%;
 	margin: auto;
-
-	border: solid 2px var(--panel-border-color);
-	border-radius: 6px;
-	box-shadow: 0 0 16px black;
-	background-color: var(--panel-color);
-
-	overflow: hidden;
 
 	& > .content {
 		padding: 20px 40px 40px 40px;

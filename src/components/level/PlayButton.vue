@@ -20,31 +20,27 @@ const { id } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
+@use "../../styles/_mixins.scss";
+
 .play-button {
+	@include mixins.panel;
+	@include mixins.hover;
+
 	width: 100%;
 	height: 50px;
+	user-select: none;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 8px;
 	
-	border: solid 2px var(--button-border-color);
-	border-radius: 10px;
-	box-shadow: 0 2px 8px black;
+	border-color: var(--button-border-color);
 	background-color: var(--button-color);
+	border-radius: 10px;
 
 	font-size: 1.25em;
 	font-weight: bold;
-
 	text-decoration: none;
-	user-select: none;
-
-	&:hover {
-		filter: brightness(110%);
-	}
-	&:active {
-		filter: brightness(90%);
-	}
 }
 </style>
