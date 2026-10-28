@@ -17,9 +17,9 @@ const { tag } = defineProps<{
 	font-size: 0.9em;
 	padding: 4px 8px;
 	
-	border: solid 2px var(--border-color);
+	border: solid 2px var(--chip-border-color);
 	border-radius: 100px;
 	box-shadow: 0 2px 8px black;
-	background-color: var(--panel-double-color);
+	background-color: var(--chip-color);
 }
 </style>

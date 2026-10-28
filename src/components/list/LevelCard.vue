@@ -26,7 +26,7 @@ const { level, placement } = defineProps<{
 	width: 100%;
 	height: 120px;
 
-	border: solid 2px var(--border-color);
+	border: solid 2px var(--panel-border-color);
 	border-radius: 6px;
 	box-shadow: 0 0 16px black;
 	background-color: var(--panel-color);
