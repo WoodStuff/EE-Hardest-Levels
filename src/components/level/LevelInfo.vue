@@ -39,6 +39,10 @@ const { level, placement } = defineProps<{
 
 	& > .content {
 		padding: 0 40px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 }
 </style>

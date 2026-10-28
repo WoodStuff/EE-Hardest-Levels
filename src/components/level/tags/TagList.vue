@@ -20,7 +20,5 @@ const { tags } = defineProps<{
 .tag-list {
 	display: flex;
 	gap: 8px;
-
-	margin-bottom: 16px;
 }
 </style>
