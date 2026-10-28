@@ -21,8 +21,6 @@ const { level, placement } = defineProps<{
 .title-row {
 	position: relative;
 
-	margin: 20px 0;
-
 	& > .title {
 		font-size: 2.5em;
 		font-weight: 600;

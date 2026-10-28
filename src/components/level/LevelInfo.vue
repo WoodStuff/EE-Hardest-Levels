@@ -30,7 +30,6 @@ const { level, placement } = defineProps<{
 
 	width: 100%;
 	margin: auto;
-	padding-bottom: 32px;
 
 	border: solid 2px var(--panel-border-color);
 	border-radius: 6px;
@@ -40,7 +39,7 @@ const { level, placement } = defineProps<{
 	overflow: hidden;
 
 	& > .content {
-		padding: 0 40px;
+		padding: 20px 40px 40px 40px;
 
 		display: flex;
 		flex-direction: column;
