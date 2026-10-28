@@ -19,7 +19,7 @@ const { video } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../styles/_mixins.scss";
+@use "../../../styles/_mixins.scss";
 
 .clear-video {
 	@include mixins.big-panel;

@@ -2,8 +2,8 @@
 import type { Level } from '@/types/Level';
 import LevelBanner from './LevelBanner.vue';
 import TitleRow from './TitleRow.vue';
-import TagList from './tags/TagList.vue';
-import DetailPanels from './details/DetailPanels.vue';
+import TagList from '../tags/TagList.vue';
+import DetailPanels from '../details/DetailPanels.vue';
 import PlayButton from './PlayButton.vue';
 
 const { level, placement } = defineProps<{
@@ -25,7 +25,7 @@ const { level, placement } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../styles/_mixins.scss";
+@use "../../../styles/_mixins.scss";
 
 .level-info {
 	@include mixins.big-panel;

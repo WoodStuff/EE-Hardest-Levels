@@ -8,7 +8,7 @@ export interface Level {
 	tags: Tag[];
 
 	minigames: number;
-	completions: string[];
+	clears: string[];
 	size: string;
 	
 	links: LevelLinks;

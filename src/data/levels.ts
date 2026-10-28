@@ -10,7 +10,7 @@ export const LEVELS: Level[] = [
 		tags: ['Precision', 'BEEL', 'Edges', 'Levitation'],
 
 		minigames: 55,
-		completions: ["THEEGGLET", "JOEY"],
+		clears: ["THEEGGLET", "JOEY"],
 		size: '300x300',
 
 		links: {
@@ -41,7 +41,7 @@ export const LEVELS: Level[] = [
 		tags: ['T-Jumps', 'Unbalanced'],
 
 		minigames: 18,
-		completions: ["TURTLECAT", "THEEGGLET"],
+		clears: ["TURTLECAT", "THEEGGLET"],
 		size: '200x200',
 		
 		links: {
@@ -64,7 +64,7 @@ export const LEVELS: Level[] = [
 		tags: ['Spike Hell', 'Helix', 'Overall', 'Unbalanced'],
 
 		minigames: 60,
-		completions: ["THEEGGLET"],
+		clears: ["THEEGGLET"],
 		size: '200x200',
 
 		links: {

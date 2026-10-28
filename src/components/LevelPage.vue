@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { LEVELS } from '@/data/levels';
-import LevelInfo from './level/LevelInfo.vue';
+import LevelInfo from './level/info/LevelInfo.vue';
 import { computed } from 'vue';
-import ClearVideo from './level/ClearVideo.vue';
+import ClearVideo from './level/video/ClearVideo.vue';
 import LevelRecords from './level/records/LevelRecords.vue';
 
 const { placement } = defineProps<{

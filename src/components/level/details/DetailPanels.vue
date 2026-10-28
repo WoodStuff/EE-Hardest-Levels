@@ -15,7 +15,7 @@ const { level } = defineProps<{
 		/>
 		<DetailPanel
 			:description="'winners'"
-			:value="level.completions.length"
+			:value="level.clears.length"
 		/>
 		<DetailPanel
 			:description="'world size'"
