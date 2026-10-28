@@ -6,4 +6,7 @@ export type Tag =
 	| 'Spike Hell' | 'Helix' | 'BEEL'
 
 	// skillset
-	| 'Overall' | 'T-Jumps' | 'Edges' | 'Levitation' | 'Multijump';
+	| 'Overall' | 'T-Jumps' | 'Edges' | 'Levitation' | 'Multijump'
+
+	// balance
+	| 'Balanced' | 'Unbalanced'

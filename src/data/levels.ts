@@ -38,7 +38,7 @@ export const LEVELS: Level[] = [
 		author: "LICTOR",
 		stars: 5,
 		
-		tags: ['T-Jumps'],
+		tags: ['T-Jumps', 'Unbalanced'],
 
 		minigames: 18,
 		completions: ["TURTLECAT", "THEEGGLET"],
@@ -61,7 +61,7 @@ export const LEVELS: Level[] = [
 		author: "THEEGGLET",
 		stars: 5,
 
-		tags: ['Spike Hell', 'Helix', 'Overall'],
+		tags: ['Spike Hell', 'Helix', 'Overall', 'Unbalanced'],
 
 		minigames: 60,
 		completions: ["THEEGGLET"],
