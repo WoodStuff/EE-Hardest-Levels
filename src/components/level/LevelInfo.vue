@@ -26,7 +26,7 @@ const { level, placement } = defineProps<{
 .level-info {
 	position: relative;
 
-	width: 800px;
+	width: 100%;
 	margin: auto;
 	padding-bottom: 32px;
 

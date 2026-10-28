@@ -15,7 +15,7 @@ import LevelCard from './LevelCard.vue';
 
 <style lang="scss" scoped>
 .level-list {
-	width: 800px;
+	width: var(--content-width);
 	margin: auto;
 
 	display: flex;
