@@ -54,7 +54,6 @@ export const LEVELS: Level[] = [
 				player: "TURTLECAT",
 				date: new Date(2025, 6, 11),
 			},
-			deaths: false,
 		}
 	},
 	{
@@ -81,7 +80,7 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: "THEEGGLET",
 				deaths: 10258,
-			}
+			},
 		}
 	},
 ];

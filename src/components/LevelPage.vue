@@ -3,6 +3,7 @@ import { LEVELS } from '@/data/levels';
 import LevelInfo from './level/LevelInfo.vue';
 import { computed } from 'vue';
 import ClearVideo from './level/ClearVideo.vue';
+import LevelRecords from './level/records/LevelRecords.vue';
 
 const { placement } = defineProps<{
 	placement: number,
@@ -15,6 +16,7 @@ const level = computed(() => LEVELS[placement - 1]);
 	<div class="level-page" v-if="level">
 		<LevelInfo :level :placement />
 		<ClearVideo :video="level.links.completionVideo" />
+		<LevelRecords :records="level.records" />
 	</div>
 </template>
 
