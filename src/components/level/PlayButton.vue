@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { PlayIcon } from '@lucide/vue'; 
+
 const { id } = defineProps<{
 	id: string,
 }>(); 
@@ -11,7 +13,10 @@ const { id } = defineProps<{
 		target="_blank"
 		rel="noopener noreferrer"
 		draggable="false"
-	>Play in PixelWalker</a>
+	>
+		<PlayIcon fill="#ffffffe6" stroke-width="0" />
+		Play in PixelWalker
+	</a>
 </template>
 
 <style lang="scss" scoped>
@@ -22,6 +27,7 @@ const { id } = defineProps<{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 8px;
 	
 	border: solid 2px var(--button-border-color);
 	border-radius: 10px;

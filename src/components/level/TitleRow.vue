@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
+import { StarIcon } from "@lucide/vue";
 
 const { level, placement } = defineProps<{
 	level: Level,
@@ -13,7 +14,14 @@ const { level, placement } = defineProps<{
 		<p class="author">by {{ level.author }}</p>
 
 		<span class="placement">#{{ placement }}</span>
-		<span class="stars">{{ level.stars }}★</span>
+		<span class="stars">
+			<span>{{ level.stars }}</span>
+			<StarIcon
+				fill="#ffffffe6"
+				stroke-width="0"
+				:size="32"
+			/>
+		</span>
 	</div>
 </template>
 
@@ -39,6 +47,11 @@ const { level, placement } = defineProps<{
 		font-weight: 600;
 	}
 	& > .placement { left: 0; }
-	& > .stars { right: 0; }
+	& > .stars {
+		right: 0;
+
+		display: flex;
+		align-items: center;
+	}
 }
 </style>
