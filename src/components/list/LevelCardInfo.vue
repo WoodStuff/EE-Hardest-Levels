@@ -23,7 +23,7 @@ const { level, placement } = defineProps<{
 
 	& > .title {
 		font-size: 1.33em;
-		font-weight: 600;
+		font-weight: bold;
 	}
 }
 </style>

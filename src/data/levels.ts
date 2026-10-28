@@ -8,6 +8,7 @@ export const LEVELS: Level[] = [
 
 		tags: ['Precision', 'BEEL', 'Edges', 'Levitation'],
 		completions: ["THEEGGLET", "JOEY"],
+		size: '300x300',
 
 		video: "svPrB-CodUs",
 	},
@@ -18,6 +19,7 @@ export const LEVELS: Level[] = [
 		
 		tags: ['T-Jumps'],
 		completions: ["TURTLECAT", "THEEGGLET"],
+		size: '200x200',
 		
 		video: "VKW_-rkL114",
 	},
@@ -28,6 +30,7 @@ export const LEVELS: Level[] = [
 
 		tags: ['Spike Hell', 'Helix', 'Overall'],
 		completions: ["THEEGGLET"],
+		size: '200x200',
 
 		video: "bXVN4ipMtOM",
 	},

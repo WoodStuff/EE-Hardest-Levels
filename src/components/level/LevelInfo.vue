@@ -3,6 +3,7 @@ import type { Level } from '@/types/Level';
 import LevelBanner from './LevelBanner.vue';
 import TitleRow from './TitleRow.vue';
 import TagList from './tags/TagList.vue';
+import DetailPanels from './details/DetailPanels.vue';
 
 const { level, placement } = defineProps<{
 	level: Level,
@@ -16,6 +17,7 @@ const { level, placement } = defineProps<{
 		<div class="content">
 			<TitleRow :level :placement />
 			<TagList :tags="level.tags" />
+			<DetailPanels :level />
 		</div>
 	</div>
 </template>

@@ -7,6 +7,7 @@ export interface Level {
 
 	tags: Tag[];
 	completions: string[];
+	size: string;
 	
 	video: string;
 }
