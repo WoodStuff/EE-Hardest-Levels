@@ -9,6 +9,9 @@
 	@include panel;
 
 	box-shadow: 0 0 16px black;
+	
+	width: 100%;
+	overflow: hidden;
 }
 
 @mixin chip {

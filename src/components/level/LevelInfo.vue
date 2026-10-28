@@ -31,9 +31,6 @@ const { level, placement } = defineProps<{
 	@include mixins.big-panel;
 
 	position: relative;
-	overflow: hidden;
-
-	width: 100%;
 	margin: auto;
 
 	& > .content {

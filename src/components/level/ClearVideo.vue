@@ -24,9 +24,7 @@ const { video } = defineProps<{
 .clear-video {
 	@include mixins.big-panel;
 
-	width: 100%;
 	aspect-ratio: 16/9;
-	overflow: hidden;
 
 	.frame {
 		width: calc(100% + 4px);

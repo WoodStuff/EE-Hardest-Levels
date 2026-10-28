@@ -28,9 +28,6 @@ const { level, placement } = defineProps<{
 	@include mixins.hover;
 	
 	position: relative;
-	width: 100%;
 	height: 120px;
-
-	overflow: hidden;
 }
 </style>
