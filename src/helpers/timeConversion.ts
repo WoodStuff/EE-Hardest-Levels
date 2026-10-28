@@ -1,18 +1,20 @@
-export function formatTime(ticks: number) {
-	const hours = Math.floor(ticks / 360000);
-	const minutes = Math.floor((ticks / 6000)) % 60;
-	const seconds = Math.floor((ticks / 100)) % 60;
+export function formatTime(timeTicks: number) {
+	console.log(timeTicks);
+	const hours = Math.floor(timeTicks / 360000);
+	const minutes = Math.floor((timeTicks / 6000)) % 60;
+	const seconds = Math.floor((timeTicks / 100)) % 60;
+	const ticks = timeTicks % 100;
 
-	const paddedTicks = ticks.toString().padStart(2, '0');
-	const paddedSeconds = seconds.toString().padStart(2, '0');
 	const paddedMinutes = minutes.toString().padStart(2, '0');
+	const paddedSeconds = seconds.toString().padStart(2, '0');
+	const paddedTicks = ticks.toString().padStart(2, '0');
 
 	switch (true) {
 		case hours > 0: {
-			return `${hours}:${minutes}:${paddedSeconds}.${paddedTicks}`;
+			return `${hours}:${paddedMinutes}:${paddedSeconds}.${paddedTicks}`;
 		}
 		case minutes > 0: {
-			return `${paddedMinutes}:${seconds}.${paddedTicks}`;
+			return `${paddedMinutes}:${paddedSeconds}.${paddedTicks}`;
 		}
 		default: {
 			return `${paddedSeconds}.${paddedTicks}`;
