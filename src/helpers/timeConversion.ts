@@ -1,5 +1,4 @@
 export function formatTime(timeTicks: number) {
-	console.log(timeTicks);
 	const hours = Math.floor(timeTicks / 360000);
 	const minutes = Math.floor((timeTicks / 6000)) % 60;
 	const seconds = Math.floor((timeTicks / 100)) % 60;

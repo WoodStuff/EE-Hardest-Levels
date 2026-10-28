@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Player from '@/components/misc/Player.vue';
+
 const { name, player, value } = defineProps<{
 	name: string,
 	player: string,
@@ -9,10 +11,7 @@ const { name, player, value } = defineProps<{
 <template>
 	<div class="record">
 		<span class="name">{{ name }}</span>
-		<div class="player">
-			<img class="smiley" src="/smiley.png" draggable="false">
-			{{ player }}
-		</div>
+		<Player class="player" :player />
 		<span class="value">{{ value }}</span>
 	</div>
 </template>
@@ -37,19 +36,8 @@ const { name, player, value } = defineProps<{
 	}
 
 	& > .player {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		
 		font-size: 1.1em;
 		width: 192px;
-
-		& > .smiley {
-			width: 24px;
-			height: 24px;
-			image-rendering: pixelated;
-			user-select: none;
-		}
 	}
 
 	& > .value {
