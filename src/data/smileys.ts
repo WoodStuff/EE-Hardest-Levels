@@ -1,7 +1,7 @@
 const SMILEYS: { [player: string]: string } = {
-	"THEEGGLET": "propeller",
+	'THEEGGLET': 'propeller',
 };
 
 export function getSmiley(player: string) {
-	return SMILEYS[player] ?? "smiley";
+	return SMILEYS[player] ?? 'smiley';
 }

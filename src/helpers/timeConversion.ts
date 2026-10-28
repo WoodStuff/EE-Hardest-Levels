@@ -36,7 +36,7 @@ export function timeFrom(...units: number[]) {
 			return timeHours(units[0]!, units[1]!, units[2]!, units[3]!);
 	
 		default:
-			throw new Error("Invalid amount of paremeters in time converter");
+			throw new Error('Invalid amount of paremeters in time converter');
 	}
 }
 
