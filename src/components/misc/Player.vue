@@ -1,12 +1,17 @@
 <script setup lang="ts">
+import { getSmiley } from '@/data/smileys';
+import { computed } from 'vue';
+
 const { player } = defineProps<{
 	player: string,
 }>();
+
+const smiley = computed(() => getSmiley(player));
 </script>
 
 <template>
 	<div class="player">
-		<img class="smiley" src="/smiley.png" draggable="false">
+		<img class="smiley" :src="`/smileys/${smiley}.png`" draggable="false">
 		{{ player }}
 	</div>
 </template>
@@ -15,11 +20,11 @@ const { player } = defineProps<{
 .player {
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 4px;
 
 	& > .smiley {
-		width: 24px;
-		height: 24px;
+		width: 26px;
+		height: 26px;
 		image-rendering: pixelated;
 		user-select: none;
 	}
