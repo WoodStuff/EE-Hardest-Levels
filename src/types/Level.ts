@@ -11,5 +11,10 @@ export interface Level {
 	completions: string[];
 	size: string;
 	
-	video: string;
+	links: LevelLinks;
+}
+
+interface LevelLinks {
+	pixelwalkerId: string;
+	completionVideo: string;
 }

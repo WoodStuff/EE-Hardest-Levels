@@ -12,7 +12,10 @@ export const LEVELS: Level[] = [
 		completions: ["THEEGGLET", "JOEY"],
 		size: '300x300',
 
-		video: "svPrB-CodUs",
+		links: {
+			pixelwalkerId: "legacy:PWHhyBkt0XckI",
+			completionVideo: "svPrB-CodUs",
+		}
 	},
 	{
 		title: "Tea Land",
@@ -25,7 +28,10 @@ export const LEVELS: Level[] = [
 		completions: ["TURTLECAT", "THEEGGLET"],
 		size: '200x200',
 		
-		video: "VKW_-rkL114",
+		links: {
+			pixelwalkerId: "legacy:PWGQRxGEYScEI",
+			completionVideo: "VKW_-rkL114",
+		}
 	},
 	{
 		title: "Spike Helixory",
@@ -38,6 +44,9 @@ export const LEVELS: Level[] = [
 		completions: ["THEEGGLET"],
 		size: '200x200',
 
-		video: "bXVN4ipMtOM",
+		links: {
+			pixelwalkerId: "hn9z013uvjsmwez",
+			completionVideo: "bXVN4ipMtOM",
+		}
 	},
 ];

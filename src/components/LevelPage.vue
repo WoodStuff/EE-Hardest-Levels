@@ -14,7 +14,7 @@ const level = computed(() => LEVELS[placement - 1]);
 <template>
 	<div class="level-page" v-if="level">
 		<LevelInfo :level :placement />
-		<ClearVideo :video="level.video" />
+		<ClearVideo :video="level.links.completionVideo" />
 	</div>
 </template>
 

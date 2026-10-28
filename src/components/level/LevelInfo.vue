@@ -4,6 +4,7 @@ import LevelBanner from './LevelBanner.vue';
 import TitleRow from './TitleRow.vue';
 import TagList from './tags/TagList.vue';
 import DetailPanels from './details/DetailPanels.vue';
+import PlayButton from './PlayButton.vue';
 
 const { level, placement } = defineProps<{
 	level: Level,
@@ -18,6 +19,7 @@ const { level, placement } = defineProps<{
 			<TitleRow :level :placement />
 			<TagList :tags="level.tags" />
 			<DetailPanels :level />
+			<PlayButton :id="level.links.pixelwalkerId" />
 		</div>
 	</div>
 </template>
