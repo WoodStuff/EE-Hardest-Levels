@@ -11,7 +11,7 @@ const { level } = defineProps<{
 	<div class="panels">
 		<DetailPanel
 			:description="'minigames'"
-			:value="60"
+			:value="level.minigames"
 		/>
 		<DetailPanel
 			:description="'winners'"

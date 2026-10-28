@@ -6,6 +6,8 @@ export interface Level {
 	stars: number;
 
 	tags: Tag[];
+
+	minigames: number;
 	completions: string[];
 	size: string;
 	

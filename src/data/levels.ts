@@ -7,6 +7,8 @@ export const LEVELS: Level[] = [
 		stars: 5,
 
 		tags: ['Precision', 'BEEL', 'Edges', 'Levitation'],
+
+		minigames: 55,
 		completions: ["THEEGGLET", "JOEY"],
 		size: '300x300',
 
@@ -18,6 +20,8 @@ export const LEVELS: Level[] = [
 		stars: 5,
 		
 		tags: ['T-Jumps'],
+
+		minigames: 18,
 		completions: ["TURTLECAT", "THEEGGLET"],
 		size: '200x200',
 		
@@ -29,6 +33,8 @@ export const LEVELS: Level[] = [
 		stars: 5,
 
 		tags: ['Spike Hell', 'Helix', 'Overall'],
+
+		minigames: 60,
 		completions: ["THEEGGLET"],
 		size: '200x200',
 
