@@ -1,3 +1,4 @@
+import { timeFrom } from "@/helpers/timeConversion";
 import type { Level } from "@/types/Level";
 
 export const LEVELS: Level[] = [
@@ -15,6 +16,21 @@ export const LEVELS: Level[] = [
 		links: {
 			pixelwalkerId: "legacy:PWHhyBkt0XckI",
 			completionVideo: "svPrB-CodUs",
+		},
+
+		records: {
+			firstClear: {
+				player: "THEEGGLET",
+				date: new Date(2025, 8, 28),
+			},
+			speedrun: {
+				player: "THEEGGLET",
+				ticks: timeFrom(28, 21, 53, 45),
+			},
+			deaths: {
+				player: "THEEGGLET",
+				deaths: 14773,
+			},
 		}
 	},
 	{
@@ -31,6 +47,14 @@ export const LEVELS: Level[] = [
 		links: {
 			pixelwalkerId: "legacy:PWGQRxGEYScEI",
 			completionVideo: "VKW_-rkL114",
+		},
+
+		records: {
+			firstClear: {
+				player: "TURTLECAT",
+				date: new Date(2025, 6, 11),
+			},
+			deaths: false,
 		}
 	},
 	{
@@ -47,6 +71,17 @@ export const LEVELS: Level[] = [
 		links: {
 			pixelwalkerId: "hn9z013uvjsmwez",
 			completionVideo: "bXVN4ipMtOM",
+		},
+
+		records: {
+			firstClear: {
+				player: "THEEGGLET",
+				date: new Date(2025, 10, 28),
+			},
+			deaths: {
+				player: "THEEGGLET",
+				deaths: 10258,
+			}
 		}
 	},
 ];

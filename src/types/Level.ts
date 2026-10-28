@@ -12,9 +12,26 @@ export interface Level {
 	size: string;
 	
 	links: LevelLinks;
+
+	records: LevelRecords;
 }
 
 interface LevelLinks {
 	pixelwalkerId: string;
 	completionVideo: string;
+}
+
+interface LevelRecords {
+	firstClear?: {
+		player: string;
+		date: Date;
+	}
+	speedrun?: {
+		player: string;
+		ticks: number;
+	}
+	deaths?: {
+		player: string;
+		deaths: number;
+	} | false
 }
