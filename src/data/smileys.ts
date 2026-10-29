@@ -1,7 +1,7 @@
 const SMILEYS: { [player: string]: string } = {
 	'THEEGGLET': 'propeller',
 	'TURTLECAT': 'bird',
-	'JOEY': 'devil_skull',
+	'JOEY': 'raccoon',
 	'ALESMILE': 'angel',
 	'ORANGECRIX': 'shades',
 	'QUITIN': 'earmuffs',
