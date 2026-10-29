@@ -84,7 +84,7 @@ export const LEVELS: Level[] = [
 		
 		links: {
 			pixelwalkerId: 'legacy:PWGQRxGEYScEI',
-			completionVideo: 'VKW_-rkL114',
+			completionVideo: 'YKlXHJDZslw',
 		},
 
 		records: {
@@ -118,6 +118,56 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 10258,
+			},
+		}
+	},
+	{
+		title: 'CTM39',
+		author: 'THEEGGLET',
+		stars: 5,
+
+		tags: ['Endurance', 'Remix', 'Levitation'],
+
+		minigames: 1,
+		clears: ['JOEY', 'THEEGGLET'],
+		size: '50x50',
+
+		links: {
+			pixelwalkerId: 're0be9a2730bb4e',
+			completionVideo: 'GtReSkIvc1Y',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2025, 10, 27),
+			},
+		}
+	},
+	{
+		title: 'Infinity Pain',
+		author: 'KIRANINJA',
+		stars: 5,
+
+		tags: ['Spike Hell', 'Painlike', 'Overall'],
+
+		minigames: 93,
+		clears: ['ALESMILE', 'ORANGECRIX', 'JOEY', 'THEEGGLET', 'QUITIN'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PWE7zf-vf9cEI',
+			completionVideo: 'U2J21zllD2k',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2019, 0, 11),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 14677,
 			},
 		}
 	},
