@@ -16,7 +16,10 @@ const level = computed(() => LEVELS[placement - 1]);
 <template>
 	<div class="level-page" v-if="level">
 		<LevelInfo :level :placement />
-		<ClearVideo :video="level.links.completionVideo" />
+		<ClearVideo
+			v-if="level.links.completionVideo"
+			:video="level.links.completionVideo"
+		/>
 		<LevelClears :clears="level.clears" />
 		<LevelRecords :records="level.records" />
 	</div>

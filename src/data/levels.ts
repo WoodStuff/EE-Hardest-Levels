@@ -126,7 +126,7 @@ export const LEVELS: Level[] = [
 		author: 'THEEGGLET',
 		stars: 5,
 
-		tags: ['Endurance', 'Remix', 'Levitation'],
+		tags: ['Endurance', 'CTM', 'Remix', 'Levitation'],
 
 		minigames: 1,
 		clears: ['JOEY', 'THEEGGLET'],
@@ -168,6 +168,28 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 14677,
+			},
+		}
+	},
+	{
+		title: 'CTM 9',
+		author: 'MASTER1',
+		stars: 4,
+
+		tags: ['Endurance', 'CTM'],
+
+		minigames: 16,
+		clears: ['JOEY'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWaDY9ZeX9cUI',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2026, 7, 7),
 			},
 		}
 	},

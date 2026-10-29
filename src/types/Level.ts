@@ -18,7 +18,7 @@ export interface Level {
 
 export interface LevelLinks {
 	pixelwalkerId: string;
-	completionVideo: string;
+	completionVideo?: string;
 }
 
 export interface LevelRecords {
