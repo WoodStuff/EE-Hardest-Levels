@@ -442,4 +442,145 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
+	{
+		title: 'Bad EE Level 3',
+		author: 'MASTER1',
+		stars: 3,
+
+		tags: ['BEEL', 'Unbalanced'],
+
+		minigames: 40,
+		clears: ['ALESMILE', 'JOEY', 'THEEGGLET'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWHmOGhAhzcEI',
+			completionVideo: 'UP3fdsQGvEo',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(2, 28, 14, 94),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 1432,
+			},
+		}
+	},
+	{
+		title: 'Bad EE Level 8',
+		author: 'MASTER1',
+		stars: 2,
+
+		tags: ['BEEL', 'Balanced'],
+
+		minigames: 40,
+		clears: ['ALESMILE', 'ORANGECRIX', 'TUREWJYG', 'THEBESTGAMER2', 'JOEY', 'THEEGGLET', 'QUITIN'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWp8s4xhwHcUI',
+			completionVideo: '5sDDTVpzXTk',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2018, 9, 11),
+			},
+			deaths: {
+				player: 'JOEY',
+				deaths: 2672,
+			},
+		}
+	},
+	{
+		title: 'The Triple Suck',
+		author: 'MASTER1',
+		stars: 2,
+
+		tags: ['Precision', 'BEEL', 'Edges', 'Balanced'],
+
+		minigames: 61,
+		clears: ['JOEY', 'THEEGGLET', 'RONJOHNSON'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWpxlqyhMyckI',
+			completionVideo: '6SKvxX1bkEw',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2023, 1, 4),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(3, 3, 11, 35),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 1766,
+			},
+		}
+	},
+	{
+		title: 'CTM 8',
+		author: 'MASTER1',
+		stars: 2,
+
+		tags: ['Endurance', 'CTM'],
+
+		minigames: 16,
+		clears: ['JOEY'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWe2kUkMsrcUI',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2022, 10, 29)
+			},
+		}
+	},
+	{
+		title: 'Forgotten Helix',
+		author: 'MUFFIN',
+		stars: 2,
+
+		tags: ['Precision', 'Spike Hell', 'Helix', 'Remix', 'Overall', 'Levitation', 'Multijump'],
+
+		minigames: 52,
+		clears: ['ORANGECRIX', 'ALESMILE', 'TUREWJYG', 'TORA', 'THEBESTGAMER2', 'JOEY', '2B55B5G', 'THEEGGLET', 'DARVI', 'QUITIN'],
+		size: '400x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PW0B5RcvBbb0I',
+			completionVideo: 'FGkCF9R6XwI',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ORANGECRIX',
+				date: new Date(2018, 9, 3),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(1, 16, 20, 33),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 846,
+			},
+		}
+	},
 ];

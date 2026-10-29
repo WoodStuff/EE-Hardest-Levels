@@ -24,7 +24,7 @@ export interface LevelLinks {
 export interface LevelRecords {
 	firstClear?: {
 		player: string;
-		date: Date;
+		date?: Date;
 	}
 	speedrun?: {
 		player: string;

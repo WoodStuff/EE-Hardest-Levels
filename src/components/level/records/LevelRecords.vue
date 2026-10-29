@@ -16,7 +16,7 @@ const { records } = defineProps<{
 				v-if="records.firstClear"
 				name="First clear"
 				:player="records.firstClear.player"
-				:value="records.firstClear.date.toDateString()"
+				:value="records.firstClear.date?.toDateString() ?? ''"
 			/>
 			<Record
 				v-if="records.speedrun"
