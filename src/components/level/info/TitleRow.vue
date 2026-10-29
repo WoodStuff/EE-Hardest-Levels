@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Stars from '@/components/misc/Stars.vue';
 import type { Level } from '@/types/Level';
-import { StarIcon } from "@lucide/vue";
 
 const { level, placement } = defineProps<{
 	level: Level,
