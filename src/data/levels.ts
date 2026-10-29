@@ -1,6 +1,44 @@
 import { timeFrom } from '@/helpers/timeConversion';
 import type { Level } from '@/types/Level';
 
+/*
+================================
+            TEMPLATE
+================================
+
+	{
+		title: '',
+		author: '',
+		stars: 0,
+
+		tags: [],
+
+		minigames: 0,
+		clears: [],
+		size: '',
+
+		links: {
+			pixelwalkerId: '',
+			completionVideo: '',
+		},
+
+		records: {
+			firstClear: {
+				player: '',
+				date: new Date(),
+			},
+			speedrun: {
+				player: '',
+				ticks: timeFrom(),
+			},
+			deaths: {
+				player: '',
+				deaths: 0,
+			},
+		}
+	},
+*/
+
 export const LEVELS: Level[] = [
 	{
 		title: 'A Real Trisaster',
