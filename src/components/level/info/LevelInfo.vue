@@ -25,7 +25,7 @@ const { level, placement } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .level-info {
 	@include mixins.big-panel;

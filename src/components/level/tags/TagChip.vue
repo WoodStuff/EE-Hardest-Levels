@@ -13,7 +13,7 @@ const { tag } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .tag-chip {
 	@include mixins.chip;

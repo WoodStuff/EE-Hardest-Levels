@@ -25,7 +25,7 @@ const { clears } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .level-clears {
 	@include mixins.big-panel;

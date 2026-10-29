@@ -35,7 +35,7 @@ const { records } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .level-records {
 	@include mixins.big-panel;

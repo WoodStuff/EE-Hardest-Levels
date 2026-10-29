@@ -13,7 +13,7 @@ const { description, value } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .panel {
 	@include mixins.chip;

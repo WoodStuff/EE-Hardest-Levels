@@ -20,7 +20,7 @@ const { id } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .play-button {
 	@include mixins.panel;

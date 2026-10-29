@@ -17,7 +17,7 @@ const { name, player, value } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@use "../../../styles/_mixins.scss";
+@use "@/styles/_mixins.scss";
 
 .record {
 	@include mixins.chip;
