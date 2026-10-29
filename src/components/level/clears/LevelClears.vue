@@ -1,15 +1,20 @@
 <script setup lang="ts">
 import Clear from './Clear.vue';
+import TooManyClears from './TooManyClears.vue';
 
 const { clears } = defineProps<{
-	clears: string[],
+	clears: string[] | 'too many to count',
 }>();
 </script>
 
 <template>
 	<div class="level-clears">
 		<h1 class="header">Clears</h1>
-		<div class="clear-container">
+		<TooManyClears v-if="clears === 'too many to count'" />
+		<div
+			v-else
+			class="clear-container"
+		>
 			<Clear
 				v-for="clear in clears"
 				:player="clear"
@@ -26,6 +31,7 @@ const { clears } = defineProps<{
 
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 20px;
 
 	padding: 20px 40px;
@@ -38,6 +44,7 @@ const { clears } = defineProps<{
 
 	& > .clear-container {
 		display: flex;
+		justify-content: center;
 		flex-wrap: wrap;
 		gap: 12px;
 	}

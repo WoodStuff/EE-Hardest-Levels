@@ -8,7 +8,7 @@ export interface Level {
 	tags: Tag[];
 
 	minigames: number;
-	clears: string[];
+	clears: string[] | 'too many to count';
 	size: string;
 	
 	links: LevelLinks;

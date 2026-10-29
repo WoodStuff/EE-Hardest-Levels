@@ -147,7 +147,7 @@ export const LEVELS: Level[] = [
 	{
 		title: 'Infinity Pain',
 		author: 'KIRANINJA',
-		stars: 5,
+		stars: 4,
 
 		tags: ['Spike Hell', 'Painlike', 'Overall'],
 
@@ -580,6 +580,217 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 846,
+			},
+		}
+	},
+	{
+		title: 'Thingite Pain',
+		author: 'THEEGGLET',
+		stars: 2,
+
+		tags: ['Spike Hell', 'Painlike', 'Overall', 'Multijump', 'Balanced'],
+
+		minigames: 146,
+		clears: ['THEEGGLET'],
+		size: '250x250',
+
+		links: {
+			pixelwalkerId: 'r80bc84e579fb76',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THEEGGLET',
+				date: new Date(2026, 10, 2),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(2, 2, 28, 84),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 2092,
+			},
+		}
+	},
+	{
+		title: 'Bad PW Level 2',
+		author: 'JOEY',
+		stars: 2,
+
+		tags: ['BEEL', 'Overall'],
+
+		minigames: 30,
+		clears: ['THEEGGLET', 'JOEY'],
+		size: '350x350',
+
+		links: {
+			pixelwalkerId: 'mjh95igxm96tq2n',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THEEGGLET',
+				date: new Date(2025, 3, 5),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(1, 38, 51, 65),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 718,
+			},
+		}
+	},
+	{
+		title: 'Moai Prison',
+		author: 'THEGAME',
+		stars: 2,
+
+		tags: ['Precision', 'Spike Hell', 'Helix', 'Remix'],
+
+		minigames: 19,
+		clears: ['JOEY', 'OCTO', 'ORANGECRIX', 'THEGAME', 'FISH'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'wcdjf4kx0k7dmsx',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2026, 7, 29),
+			},
+			speedrun: {
+				player: 'ALESMILE',
+				ticks: timeFrom(2, 6, 49, 40),
+			},
+			deaths: {
+				player: 'THEGAME',
+				deaths: 1426,
+			},
+		}
+	},
+	{
+		title: 'Bad EE Level 5',
+		author: 'MASTER1',
+		stars: 2,
+
+		tags: ['BEEL', 'Nonlinear', 'Overall'],
+
+		minigames: 30,
+		clears: ['ALESMILE', 'JOEY', 'THEEGGLET', 'RONJOHNSON'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWE3Gq__rhcEI',
+			completionVideo: 'XuOoegOe5qY',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2018, 3, 7),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(38, 41, 6),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 182,
+			},
+		}
+	},
+	{
+		title: 'Bad EE Level 2',
+		author: 'MASTER1',
+		stars: 2,
+
+		tags: ['Precision', 'BEEL', 'Overall'],
+
+		minigames: 35,
+		clears: ['THWINKT', 'ALESMILE', 'ORANGECRIX', 'JOEY', 'THEEGGLET', 'RONJOHNSON'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWiQhZndtPcEI',
+			completionVideo: 'IZPuf8CVxIc',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THWINKT',
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(1, 10, 36, 98),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 1024,
+			},
+		}
+	},
+	{
+		title: 'Helix Reborn',
+		author: 'MUFFIN',
+		stars: 2,
+
+		tags: ['Precision', 'Spike Hell', 'Helix', 'Remix', 'Overall', 'Edges', 'Balanced'],
+
+		minigames: 27,
+		clears: 'too many to count',
+		size: '400x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PW_B5037pccEI',
+			completionVideo: '1etV0KAiblE',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ORANGECRIX',
+			},
+			speedrun: {
+				player: 'ORANGECRIX',
+				ticks: timeFrom(15, 47, 53),
+			},
+			deaths: {
+				player: 'ORANGECRIX',
+				deaths: 248,
+			},
+		}
+	},
+	{
+		title: 'Endless Pain',
+		author: 'KIRANINJA',
+		stars: 2,
+
+		tags: ['Precision', 'Spike Hell', 'Painlike', 'Overall', 'Edges'],
+
+		minigames: 86,
+		clears: 'too many to count',
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PW2hy-hS3Lb0I',
+			completionVideo: 'u7gJNiYQ9js',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THWINKT',
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(23, 58, 54),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 214,
 			},
 		}
 	},

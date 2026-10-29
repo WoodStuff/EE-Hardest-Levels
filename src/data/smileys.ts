@@ -16,6 +16,7 @@ const SMILEYS: { [player: string]: string } = {
 	'RONJOHNSON': 'extra_grin',
 	'OCTO': 'earmuffs',
 	'THWINKT': 'hooded',
+	'THEGAME': 'lit_pumpkin',
 };
 
 export function getSmiley(player: string) {

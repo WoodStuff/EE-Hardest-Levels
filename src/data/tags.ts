@@ -3,7 +3,7 @@ export type Tag =
 	| 'Precision' | 'Endurance'
 
 	// level structure
-	| 'Spike Hell' | 'Painlike' | 'Helix' | 'BEEL' | 'CTM' | 'Remix'
+	| 'Spike Hell' | 'Painlike' | 'Helix' | 'BEEL' | 'CTM' | 'Remix' | 'Nonlinear'
 
 	// skillset
 	| 'Overall' | 'T-Jumps' | 'Edges' | 'Levitation' | 'Multijump'
