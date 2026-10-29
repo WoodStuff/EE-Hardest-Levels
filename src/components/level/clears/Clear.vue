@@ -18,7 +18,7 @@ const { player } = defineProps<{
 .clear {
 	@include mixins.chip;
 
-	padding: 8px;
+	padding: 4px 8px 4px 4px;
 	border-radius: 16px;
 }
 </style>
