@@ -250,7 +250,7 @@ export const LEVELS: Level[] = [
 
 		tags: ['Precision', 'Edges'],
 
-		minigames: 0,
+		minigames: 19,
 		clears: ['THEEGGLET'],
 		size: '100x100',
 
