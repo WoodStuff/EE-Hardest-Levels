@@ -15,7 +15,7 @@ const { level, placement } = defineProps<{
 		<p class="author">by {{ level.author }}</p>
 
 		<span class="placement">#{{ placement }}</span>
-		<Stars class="stars" :amount="level.stars" :icon-size="32" />
+		<Stars class="stars" :amount="level.stars" :icon-size="36" />
 	</div>
 </template>
 
