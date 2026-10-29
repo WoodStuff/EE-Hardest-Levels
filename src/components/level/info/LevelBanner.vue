@@ -1,15 +1,18 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
+import { computed } from 'vue';
 
 const { level } = defineProps<{
 	level: Level,
 }>();
+
+const filename = computed(() => level.title.replaceAll(':', ''));
 </script>
 
 <template>
 	<img
 		class="banner"
-		:src="`/banners/${level.title}.png`"
+		:src="`/banners/${filename}.png`"
 		draggable="false"
 	>
 </template>

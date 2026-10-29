@@ -286,8 +286,8 @@ export const LEVELS: Level[] = [
 		size: '200x200',
 
 		links: {
-			pixelwalkerId: 'r67ea7840544bde',
-			completionVideo: 'ku1SIFE4TrE',
+			pixelwalkerId: 'legacy:PWnsRoOK0_cEI',
+			completionVideo: 'atTXGHhoUKc',
 		},
 
 		records: {
@@ -302,6 +302,143 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 1742,
+			},
+		}
+	},
+	{
+		title: 'Tea Land II',
+		author: 'LICTOR',
+		stars: 3,
+
+		tags: ['Precision', 'T-Jumps', 'Balanced'],
+
+		minigames: 13,
+		clears: ['THEEGGLET', 'JOEY'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PWmVP98I4LcEI',
+			completionVideo: 'V1oDf7BlxUk',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THEEGGLET',
+				date: new Date(2025, 11, 18),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(2, 38, 45, 18),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 2606,
+			},
+		}
+	},
+	{
+		title: 'Yrros',
+		author: 'LICTOR',
+		stars: 3,
+
+		tags: ['Multijump', 'Balanced'],
+
+		minigames: 10,
+		clears: ['ALESMILE', 'JOEY'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PWublM6W4RcEI',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2018, 2, 10),
+			},
+			deaths: {
+				player: 'ALESMILE',
+				deaths: 2824,
+			},
+		}
+	},
+	{
+		title: 'boring minigame',
+		author: 'TUREWJYG',
+		stars: 3,
+
+		tags: ['Overall'],
+
+		minigames: 40,
+		clears: ['DARVI', 'JOEY', 'TURTLECAT'],
+		size: '636x50',
+
+		links: {
+			pixelwalkerId: 'legacy:PWLqV8_8fgcEI',
+			completionVideo: 'bB-ZpH1lWi8',
+		},
+
+		records: {
+			firstClear: {
+				player: 'DARVI',
+				date: new Date(2023, 7, 26),
+			},
+		}
+	},
+	{
+		title: 'TTL: Spike Edition 2',
+		author: 'THEGAME',
+		stars: 3,
+
+		tags: ['Precision', 'Remix', 'Overall', 'Unbalanced'],
+
+		minigames: 100,
+		clears: ['JOEY', 'THEEGGLET'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'r3eb2215a94119f',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2026, 5, 1),
+			},
+			speedrun: {
+				player: 'JOEY',
+				ticks: timeFrom(4, 13, 41, 47),
+			},
+			deaths: {
+				player: 'JOEY',
+				deaths: 3092,
+			},
+		}
+	},
+	{
+		title: 'Octo\'s Fun Castle',
+		author: 'PINGOHITS',
+		stars: 3,
+
+		tags: ['Overall'],
+
+		minigames: 92,
+		clears: ['ALESMILE', 'ORANGECRIX', 'JOEY', 'TUREWJYG', 'THEEGGLET'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PWwIUGWdaJcEI',
+			completionVideo: 'jYkiK2PU-xw',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2018, 3, 23),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 7715,
 			},
 		}
 	},
