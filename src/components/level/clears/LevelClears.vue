@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import type { LevelClears } from '@/types/Level.ts';
 import Clear from './Clear.vue';
 import TooManyClears from './TooManyClears.vue';
 
 const { clears } = defineProps<{
-	clears: string[] | 'too many to count',
+	clears: LevelClears,
 }>();
 </script>
 

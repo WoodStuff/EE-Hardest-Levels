@@ -8,13 +8,15 @@ export interface Level {
 	tags: Tag[];
 
 	minigames: number;
-	clears: string[] | 'too many to count';
+	clears: LevelClears;
 	size: string;
 	
 	links: LevelLinks;
 
 	records: LevelRecords;
 }
+
+export type LevelClears = string[] | 'too many to count';
 
 export interface LevelLinks {
 	pixelwalkerId: string;
