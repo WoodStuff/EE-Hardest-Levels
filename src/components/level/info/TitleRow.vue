@@ -22,6 +22,7 @@ const { level, placement } = defineProps<{
 <style lang="scss" scoped>
 .title-row {
 	position: relative;
+	text-shadow: black 0 0 10px;
 
 	& > .title {
 		font-size: 2.5em;

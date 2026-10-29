@@ -41,6 +41,7 @@ const { clears } = defineProps<{
 		font-size: 2.5em;
 		font-weight: 600;
 		text-align: center;
+		text-shadow: black 0 0 10px;
 	}
 
 	& > .clear-container {
