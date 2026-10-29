@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
-import LevelCardInfo from './LevelCardInfo.vue';
+import LevelCardLeftInfo from './LevelCardLeftInfo.vue';
 import LevelCardBackground from './LevelCardBackground.vue';
+import LevelCardRightInfo from './LevelCardRightInfo.vue';
 
 const { level, placement } = defineProps<{
 	level: Level,
@@ -16,7 +17,8 @@ const { level, placement } = defineProps<{
 		draggable="false"
 	>
 		<LevelCardBackground :level />
-		<LevelCardInfo :level :placement />
+		<LevelCardLeftInfo :level :placement />
+		<LevelCardRightInfo :level />
 	</RouterLink>
 </template>
 

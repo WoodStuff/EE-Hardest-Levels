@@ -21,6 +21,9 @@ const { level, placement } = defineProps<{
 	left: 12px;
 	text-shadow: black 0 0 10px;
 
+	display: flex;
+	flex-direction: column;
+
 	& > .title {
 		font-size: 1.33em;
 		font-weight: bold;
