@@ -193,4 +193,116 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
+	{
+		title: 'CTM 4',
+		author: 'MASTER1',
+		stars: 4,
+
+		tags: ['Endurance', 'CTM'],
+
+		minigames: 16,
+		clears: ['JOEY'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWWpnc9tlZcUI',
+			completionVideo: '8k1TkiKzPn8',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2022, 9, 12),
+			},
+		}
+	},
+	{
+		title: 'Bad EE Level 4',
+		author: 'MASTER1',
+		stars: 4,
+
+		tags: ['BEEL', 'Overall', 'Levitation', 'Unbalanced'],
+
+		minigames: 40,
+		clears: ['JOEY', 'THEEGGLET'],
+		size: '300x300',
+
+		links: {
+			pixelwalkerId: 'legacy:PWx8GZHg60cEI',
+			completionVideo: 'rVyhqeaA-M0',
+		},
+
+		records: {
+			firstClear: {
+				player: 'JOEY',
+				date: new Date(2024, 9, 10),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 1651,
+			},
+		}
+	},
+	{
+		title: 'Easy',
+		author: 'TUREWJYG',
+		stars: 4,
+
+		tags: ['Precision', 'Edges'],
+
+		minigames: 0,
+		clears: ['THEEGGLET'],
+		size: '100x100',
+
+		links: {
+			pixelwalkerId: 'r67ea7840544bde',
+			completionVideo: 'ku1SIFE4TrE',
+		},
+
+		records: {
+			firstClear: {
+				player: 'THEEGGLET',
+				date: new Date(2025, 12, 28),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(3, 25, 52, 1),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 3214,
+			},
+		}
+	},
+	{
+		title: 'Be gone.',
+		author: 'KIRANINJA',
+		stars: 4,
+
+		tags: ['Precision', 'T-Jumps', 'Balanced'],
+
+		minigames: 74,
+		clears: ['ALESMILE', 'ORANGECRIX', 'TUREWJYG', 'THEBESTGAMER2', 'TORA', 'ETERNALINFERNO', 'JOEY', 'SABER12', '2B55B5G', 'ELEMENTCOMPLETE', 'TURTLECAT', 'THEEGGLET', 'QUITIN'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'r67ea7840544bde',
+			completionVideo: 'ku1SIFE4TrE',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2017, 12, 15),
+			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(1, 57, 13, 2),
+			},
+			deaths: {
+				player: 'THEEGGLET',
+				deaths: 1742,
+			},
+		}
+	},
 ];
