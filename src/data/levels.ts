@@ -45,7 +45,7 @@ export const LEVELS: Level[] = [
 		author: 'MASTER1',
 		stars: 5,
 
-		tags: ['Precision', 'BEEL', 'Edges', 'Levitation'],
+		tags: ['Precision', 'BEEL', 'Remix', 'Edges', 'Levitation'],
 
 		minigames: 55,
 		clears: ['THEEGGLET', 'JOEY'],
@@ -99,7 +99,7 @@ export const LEVELS: Level[] = [
 		author: 'THEEGGLET',
 		stars: 5,
 
-		tags: ['Spike Hell', 'Helix', 'Overall', 'Unbalanced'],
+		tags: ['Spike Hell', 'Helix', 'Remix', 'Overall', 'Unbalanced'],
 
 		minigames: 60,
 		clears: ['THEEGGLET'],
