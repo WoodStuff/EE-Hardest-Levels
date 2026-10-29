@@ -1,27 +1,34 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level';
 import Stars from '../misc/Stars.vue';
-import { computed } from 'vue';
+import { FlagIcon, Grid2X2Icon } from "@lucide/vue";
 
 const { level } = defineProps<{
 	level: Level,
 }>();
-
-const clearsText = computed(() => {
-	const amount = level.clears.length;
-	return `${amount} clear${amount === 1 ? '' : 's'}`
-});
-const minigamesText = computed(() => {
-	const amount = level.minigames;
-	return `${amount} minigame${amount === 1 ? '' : 's'}`
-});
 </script>
 
 <template>
 	<div class="info">
-		<Stars class="stars" :amount="level.stars" />
-		<p>{{ clearsText }}</p>
-		<p>{{ minigamesText }}</p>
+		<Stars
+			class="stars"
+			:amount="level.stars"
+			title="The star difficulty of this world."
+		/>
+		<span
+			class="data"
+			title="How many players cleared this world?"
+		>
+			<span>{{ level.clears.length }}</span>
+			<FlagIcon :size="18" />
+		</span>
+		<span
+			class="data"
+			title="How many minigames does this world have?"
+		>
+			<span>{{ level.minigames }}</span>
+			<Grid2X2Icon :size="18" />
+		</span>
 	</div>
 </template>
 
@@ -39,6 +46,15 @@ const minigamesText = computed(() => {
 	& > .stars {
 		font-size: 1.33em;
 		font-weight: bold;
+
+		cursor: help;
+	}
+	& > .data {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+
+		cursor: help;
 	}
 }
 </style>
