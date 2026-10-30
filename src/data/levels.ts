@@ -296,8 +296,8 @@ export const LEVELS: Level[] = [
 				date: new Date(2017, 12, 15),
 			},
 			speedrun: {
-				player: 'THEEGGLET',
-				ticks: timeFrom(1, 57, 13, 2),
+				player: 'QUITIN',
+				ticks: timeFrom(1, 45, 8, 1),
 			},
 			deaths: {
 				player: 'THEEGGLET',
