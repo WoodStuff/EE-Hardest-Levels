@@ -39,6 +39,8 @@
 		font-weight: bold;
 		text-decoration: none;
 		
+		padding: 12px;
+
 		& > .smiley {
 			width: 26px;
 			height: 26px;
