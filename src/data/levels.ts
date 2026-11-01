@@ -651,7 +651,7 @@ export const LEVELS: Level[] = [
 		tags: ['Precision', 'Spike Hell', 'Helix', 'Remix'],
 
 		minigames: 19,
-		clears: ['JOEY', 'OCTO', 'ORANGECRIX', 'THEGAME', 'FISH'],
+		clears: ['JOEY', 'OCTO', 'ORANGECRIX', 'THEGAME', 'ALESMILE'],
 		size: '200x200',
 
 		links: {
