@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import Topbar from './components/Topbar.vue';
-
-console.log(import.meta.env.PROD);
 </script>
 
 <template>
