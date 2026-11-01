@@ -16,4 +16,4 @@ export default defineConfig({
 		},
 	},
 	base: '/EE-Hardest-Levels/',
-})
+});
