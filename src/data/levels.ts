@@ -337,32 +337,6 @@ export const LEVELS: Level[] = [
 		}
 	},
 	{
-		title: 'Yrros',
-		author: 'LICTOR',
-		stars: 3,
-
-		tags: ['Multijump', 'Balanced'],
-
-		minigames: 10,
-		clears: ['ALESMILE', 'JOEY'],
-		size: '200x200',
-
-		links: {
-			pixelwalkerId: 'legacy:PWublM6W4RcEI',
-		},
-
-		records: {
-			firstClear: {
-				player: 'ALESMILE',
-				date: new Date(2018, 2, 10),
-			},
-			deaths: {
-				player: 'ALESMILE',
-				deaths: 2824,
-			},
-		}
-	},
-	{
 		title: 'boring minigame',
 		author: 'TUREWJYG',
 		stars: 3,
@@ -439,6 +413,32 @@ export const LEVELS: Level[] = [
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 7715,
+			},
+		}
+	},
+	{
+		title: 'Yrros',
+		author: 'LICTOR',
+		stars: 3,
+
+		tags: ['Multijump', 'Balanced'],
+
+		minigames: 10,
+		clears: ['ALESMILE', 'JOEY'],
+		size: '200x200',
+
+		links: {
+			pixelwalkerId: 'legacy:PWublM6W4RcEI',
+		},
+
+		records: {
+			firstClear: {
+				player: 'ALESMILE',
+				date: new Date(2018, 2, 10),
+			},
+			deaths: {
+				player: 'ALESMILE',
+				deaths: 2824,
 			},
 		}
 	},
