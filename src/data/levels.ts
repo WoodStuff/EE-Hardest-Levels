@@ -1,5 +1,5 @@
 import { timeFrom } from '@/helpers/timeConversion';
-import type { Level } from '@/types/Level';
+import type { Level, LevelName } from '@/types/Level';
 
 /*
 ================================
@@ -39,8 +39,8 @@ import type { Level } from '@/types/Level';
 	},
 */
 
-export const LEVELS: Level[] = [
-	{
+export const LEVELS = {
+	'A Real Trisaster': {
 		title: 'A Real Trisaster',
 		author: 'MASTER1',
 		stars: 5,
@@ -71,7 +71,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Tea Land': {
 		title: 'Tea Land',
 		author: 'LICTOR',
 		stars: 5,
@@ -94,7 +94,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Spike Helixory': {
 		title: 'Spike Helixory',
 		author: 'THEEGGLET',
 		stars: 5,
@@ -121,7 +121,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'CTM39': {
 		title: 'CTM39',
 		author: 'THEEGGLET',
 		stars: 5,
@@ -144,7 +144,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Infinity Pain': {
 		title: 'Infinity Pain',
 		author: 'KIRANINJA',
 		stars: 4,
@@ -171,7 +171,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'CTM 9': {
 		title: 'CTM 9',
 		author: 'MASTER1',
 		stars: 4,
@@ -193,7 +193,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'CTM 4': {
 		title: 'CTM 4',
 		author: 'MASTER1',
 		stars: 4,
@@ -216,7 +216,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad EE Level 4': {
 		title: 'Bad EE Level 4',
 		author: 'MASTER1',
 		stars: 4,
@@ -243,7 +243,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Easy': {
 		title: 'Easy',
 		author: 'TUREWJYG',
 		stars: 4,
@@ -274,7 +274,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Be gone.': {
 		title: 'Be gone.',
 		author: 'KIRANINJA',
 		stars: 4,
@@ -305,7 +305,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Tea Land II': {
 		title: 'Tea Land II',
 		author: 'LICTOR',
 		stars: 3,
@@ -336,7 +336,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'boring minigame': {
 		title: 'boring minigame',
 		author: 'TUREWJYG',
 		stars: 3,
@@ -359,7 +359,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'TTL: Spike Edition 2': {
 		title: 'TTL: Spike Edition 2',
 		author: 'THEGAME',
 		stars: 3,
@@ -389,7 +389,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Octo\'s Fun Castle': {
 		title: 'Octo\'s Fun Castle',
 		author: 'PINGOHITS',
 		stars: 3,
@@ -416,7 +416,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad EE Level 3': {
 		title: 'Bad EE Level 3',
 		author: 'MASTER1',
 		stars: 3,
@@ -446,7 +446,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Yrros': {
 		title: 'Yrros',
 		author: 'LICTOR',
 		stars: 3,
@@ -472,7 +472,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad EE Level 8': {
 		title: 'Bad EE Level 8',
 		author: 'MASTER1',
 		stars: 2,
@@ -499,7 +499,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'The Triple Suck': {
 		title: 'The Triple Suck',
 		author: 'MASTER1',
 		stars: 2,
@@ -530,7 +530,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'CTM 8': {
 		title: 'CTM 8',
 		author: 'MASTER1',
 		stars: 2,
@@ -552,7 +552,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Forgotten Helix': {
 		title: 'Forgotten Helix',
 		author: 'MUFFIN',
 		stars: 2,
@@ -583,7 +583,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Thingite Pain': {
 		title: 'Thingite Pain',
 		author: 'THEEGGLET',
 		stars: 2,
@@ -613,7 +613,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad PW Level 2': {
 		title: 'Bad PW Level 2',
 		author: 'JOEY',
 		stars: 2,
@@ -643,7 +643,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Moai Prison': {
 		title: 'Moai Prison',
 		author: 'THEGAME',
 		stars: 2,
@@ -673,7 +673,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad EE Level 5': {
 		title: 'Bad EE Level 5',
 		author: 'MASTER1',
 		stars: 2,
@@ -704,7 +704,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Bad EE Level 2': {
 		title: 'Bad EE Level 2',
 		author: 'MASTER1',
 		stars: 2,
@@ -734,7 +734,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Helix Reborn': {
 		title: 'Helix Reborn',
 		author: 'MUFFIN',
 		stars: 2,
@@ -764,7 +764,7 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-	{
+	'Endless Pain': {
 		title: 'Endless Pain',
 		author: 'KIRANINJA',
 		stars: 2,
@@ -794,4 +794,4 @@ export const LEVELS: Level[] = [
 			},
 		}
 	},
-];
+} satisfies { [name: string]: Level };

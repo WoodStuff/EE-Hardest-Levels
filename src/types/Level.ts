@@ -1,3 +1,4 @@
+import type { LEVELS } from '@/data/levels';
 import type { Tag } from '@/data/tags';
 
 export interface Level {
@@ -37,3 +38,5 @@ export interface LevelRecords {
 		deaths: number;
 	}
 }
+
+export type LevelName = keyof typeof LEVELS;
