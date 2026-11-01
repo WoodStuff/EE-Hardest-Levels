@@ -13,7 +13,6 @@ const { level } = defineProps<{
 		<Stars
 			class="stars"
 			:amount="level.stars"
-			title="The star difficulty of this world."
 		/>
 		<span
 			class="data"
@@ -46,8 +45,6 @@ const { level } = defineProps<{
 	& > .stars {
 		font-size: 1.33em;
 		font-weight: bold;
-
-		cursor: help;
 	}
 	& > .data {
 		display: flex;

@@ -15,6 +15,7 @@ const style = { color: color.value };
 <template>
 	<span
 		class="stars"
+		title="The star difficulty of this world."
 	>
 		<span :style>{{ amount }}</span>
 		<StarIcon
@@ -31,5 +32,7 @@ const style = { color: color.value };
 	display: flex;
 	align-items: center;
 	gap: 4px;
+
+	cursor: help;
 }
 </style>
