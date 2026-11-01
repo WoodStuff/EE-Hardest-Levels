@@ -11,7 +11,7 @@ const smiley = computed(() => getSmiley(player));
 
 <template>
 	<div class="player">
-		<img class="smiley" :src="`/EE-Hardest-Levels/smileys/${smiley}.png`" draggable="false">
+		<img class="smiley" :src="`/smileys/${smiley}.png`" draggable="false">
 		{{ player }}
 	</div>
 </template>
