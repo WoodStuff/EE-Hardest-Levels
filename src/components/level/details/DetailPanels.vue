@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Level } from '@/types/Level.ts';
 import DetailPanel from './DetailPanel.vue';
+import { clearAmount } from '@/helpers/clearAmount.ts';
 
 const { level } = defineProps<{
 	level: Level,
@@ -15,7 +16,7 @@ const { level } = defineProps<{
 		/>
 		<DetailPanel
 			:description="'winners'"
-			:value="level.clears.length"
+			:value="clearAmount(level.clears)"
 		/>
 		<DetailPanel
 			:description="'world size'"

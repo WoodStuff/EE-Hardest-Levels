@@ -2,6 +2,7 @@
 import type { Level } from '@/types/Level';
 import Stars from '../misc/Stars.vue';
 import { FlagIcon, Grid2X2Icon } from "@lucide/vue";
+import { clearAmount } from '@/helpers/clearAmount.ts';
 
 const { level } = defineProps<{
 	level: Level,
@@ -18,7 +19,7 @@ const { level } = defineProps<{
 			class="data"
 			title="How many players cleared this world?"
 		>
-			<span>{{ level.clears.length }}</span>
+			<span>{{ clearAmount(level.clears) }}</span>
 			<FlagIcon :size="18" />
 		</span>
 		<span
