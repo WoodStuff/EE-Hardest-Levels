@@ -12,7 +12,7 @@ const filename = computed(() => level.title.replaceAll(':', ''));
 <template>
 	<img
 		class="banner"
-		:src="`/banners/${filename}.png`"
+		:src="`/EE-Hardest-Levels/banners/${filename}.png`"
 		draggable="false"
 	>
 </template>

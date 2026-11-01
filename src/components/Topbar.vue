@@ -5,7 +5,7 @@
 			:to="'/'"
 			draggable="false"
 		>
-			<img class="smiley" src="/smileys/red_ninja.png" draggable="false" />
+			<img class="smiley" src="/EE-Hardest-Levels/smileys/red_ninja.png" draggable="false" />
 			EE Hardest Levels
 		</RouterLink>
 	</div>

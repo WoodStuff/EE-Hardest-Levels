@@ -12,7 +12,7 @@ const filename = computed(() => level.title.replaceAll(':', ''));
 <template>
 	<img
 		class="background"
-		:src="`/banners/${filename}.png`"
+		:src="`/EE-Hardest-Levels/banners/${filename}.png`"
 		draggable="false"
 	>
 </template>
@@ -20,7 +20,7 @@ const filename = computed(() => level.title.replaceAll(':', ''));
 <style lang="scss" scoped>
 .background {
 	image-rendering: pixelated;
-	mask-image: url("/banner-mask.png");
+	mask-image: url("/EE-Hardest-Levels/banner-mask.png");
 	opacity: 0.5;
 
 	user-select: none;
