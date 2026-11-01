@@ -1,18 +1,16 @@
 <script setup lang="ts">
-import { LEVELS } from '@/data/levels';
 import LevelInfo from './level/info/LevelInfo.vue';
 import { computed } from 'vue';
 import ClearVideo from './level/video/ClearVideo.vue';
 import LevelRecords from './level/records/LevelRecords.vue';
 import LevelClears from './level/clears/LevelClears.vue';
-import { PLACEMENTS } from '@/data/placements.ts';
+import { levelAt } from '@/helpers/levelAt.ts';
 
 const { placement } = defineProps<{
 	placement: number,
 }>();
 
-const levelName = computed(() => PLACEMENTS[placement - 1]!);
-const level = computed(() => LEVELS[levelName.value]);
+const level = computed(() => levelAt(placement));
 </script>
 
 <template>
