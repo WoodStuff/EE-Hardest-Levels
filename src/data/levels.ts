@@ -586,7 +586,7 @@ export const LEVELS = {
 	'Thingite Pain': {
 		title: 'Thingite Pain',
 		author: 'THEEGGLET',
-		stars: 2,
+		stars: 3,
 
 		tags: ['Spike Hell', 'Painlike', 'Overall', 'Multijump', 'Balanced'],
 
