@@ -115,6 +115,10 @@ export const LEVELS = {
 				player: 'THEEGGLET',
 				date: new Date(2025, 10, 28),
 			},
+			speedrun: {
+				player: 'THEEGGLET',
+				ticks: timeFrom(14, 10, 24, 18),
+			},
 			deaths: {
 				player: 'THEEGGLET',
 				deaths: 10258,
