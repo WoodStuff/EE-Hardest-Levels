@@ -659,7 +659,7 @@ export const LEVELS = {
 		tags: ['Precision', 'Spike Hell', 'Helix', 'Remix'],
 
 		minigames: 19,
-		clears: ['JOEY', 'OCTO', 'ORANGECRIX', 'THEGAME', 'ALESMILE'],
+		clears: ['JOEY', 'OCTO', 'ORANGECRIX', 'THEGAME', 'ALESMILE', 'QUITIN'],
 		size: '200x200',
 
 		links: {
